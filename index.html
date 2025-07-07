@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destroy FM </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slideshow">
+            <div class="slide active" style="background-image: url('img/main_bg.jpg');"></div>
+            <div class="slide" style="background-image: url('img/main_bg2.jpg');"></div>
+            <div class="slide" style="background-image: url('img/main_bg3.jpg');"></div>
+        </div>
+        <div class="noise-container">
+            <div class="noise-overlay"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div id="particles-js"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="display-1" data-aos="fade-up">
+                        <span class="destroy-text" data-scroll data-scroll-speed="2">
+                            Destroy FM
+                        </span>
+                    </h1>
+                    <p class="lead fm-text" data-aos="fade-up" data-aos-delay="200" data-scroll data-scroll-speed="1">
+                        FREQUENCY MODULATION
+                    </p>
+                    <div class="hero-social-links" data-aos="fade-up" data-aos-delay="300">
+                        <a href="#" class="hero-social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hero-social-icon"><i class="fab fa-soundcloud"></i></a>
+                        <a href="#" class="hero-social-icon"><i class="fab fa-spotify"></i></a>
+                        <a href="#" class="hero-social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div data-scroll-container>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="DestroyFm Logo" class="nav-logo">
+                    <span>DestroyFm</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Əsas Səhifə</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#artists">Artistlər</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Proyektlər</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">Tədbirlər</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link locked" href="#products">
+                                Məhsullar
+                                <i class="fas fa-lock"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Artists Section -->
+        <section id="artists" class="section-padding" data-scroll-section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center mb-5">
+                        <h6 class="text-primary" data-aos="fade-up">Bizim Komanda</h6>
+                        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Artistlərimiz</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="artist-card glass-effect" data-scroll data-scroll-speed="1">
+                            <div class="artist-image-container">
+                                <div class="artist-slideshow">
+                                    <img src="img/kinyas/kinyas.jpg" alt="KİNYAS" class="artist-slide active">
+                                    <img src="img/kinyas/kinyas2.jpg" alt="KİNYAS" class="artist-slide">
+                                    <img src="img/kinyas/kinyas3.jpg" alt="KİNYAS" class="artist-slide">
+                                    <img src="img/kinyas/kinyas4.jpg" alt="KİNYAS" class="artist-slide">
+                                    <img src="img/kinyas/kinyas5.jpg" alt="KİNYAS" class="artist-slide">
+                                </div>
+                                <div class="artist-overlay">
+                                    <div class="social-links">
+                                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="social-icon soundcloud"><i class="fab fa-soundcloud"></i></a>
+                                        <a href="#" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
+                                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="artist-info">
+                                <h4 class="artist-name">KİNYAS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="artist-card glass-effect" data-scroll data-scroll-speed="1.2">
+                            <div class="artist-image-container">
+                                <div class="artist-slideshow">
+                                    <img src="img/end/end.jpg" alt="END" class="artist-slide active">
+                                    <img src="img/end/end2.jpg" alt="END" class="artist-slide">
+                                    <img src="img/end/end3.jpg" alt="END" class="artist-slide">
+                                    <img src="img/end/end4.jpg" alt="END" class="artist-slide">
+                                    <img src="img/end/end5.jpg" alt="END" class="artist-slide">
+                                </div>
+                                <div class="artist-overlay">
+                                    <div class="social-links">
+                                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="social-icon soundcloud"><i class="fab fa-soundcloud"></i></a>
+                                        <a href="#" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
+                                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="artist-info">
+                                <h4 class="artist-name">END</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="artist-card glass-effect" data-scroll data-scroll-speed="1.4">
+                            <div class="artist-image-container">
+                                <div class="artist-slideshow">
+                                    <img src="img/mike/mike.jpg" alt="MİKE CÜMƏ" class="artist-slide active">
+                                    <img src="img/mike/mike2.jpg" alt="MİKE CÜMƏ" class="artist-slide">
+                                    <img src="img/mike/mike3.jpg" alt="MİKE CÜMƏ" class="artist-slide">
+                                    <img src="img/mike/mike4.jpg" alt="MİKE CÜMƏ" class="artist-slide">
+                                    <img src="img/mike/mike5.jpg" alt="MİKE CÜMƏ" class="artist-slide">
+                                </div>
+                                <div class="artist-overlay">
+                                    <div class="social-links">
+                                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="social-icon soundcloud"><i class="fab fa-soundcloud"></i></a>
+                                        <a href="#" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
+                                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="artist-info">
+                                <h4 class="artist-name">MİKE CÜMƏ</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="artist-card glass-effect" data-scroll data-scroll-speed="1.6">
+                            <div class="artist-image-container">
+                                <div class="artist-slideshow">
+                                    <img src="img/rino/rino.jpg" alt="RİNO" class="artist-slide active">
+                                    <img src="img/rino/rino2.jpg" alt="RİNO" class="artist-slide">
+                                    <img src="img/rino/rino3.jpg" alt="RİNO" class="artist-slide">
+                                    <img src="img/rino/rino4.jpg" alt="RİNO" class="artist-slide">
+                                    <img src="img/rino/rino5.jpg" alt="RİNO" class="artist-slide">
+                                </div>
+                                <div class="artist-overlay">
+                                    <div class="social-links">
+                                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="social-icon soundcloud"><i class="fab fa-soundcloud"></i></a>
+                                        <a href="#" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
+                                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="artist-info">
+                                <h4 class="artist-name">RİNO</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="artist-card glass-effect" data-scroll data-scroll-speed="1.8">
+                            <div class="artist-image-container">
+                                <div class="artist-slideshow">
+                                    <img src="img/alzhie/alzhie.jpg" alt="ALZHİE" class="artist-slide active">
+                                    <img src="img/alzhie/alzhie2.jpg" alt="ALZHİE" class="artist-slide">
+                                    <img src="img/alzhie/alzhie3.jpg" alt="ALZHİE" class="artist-slide">
+                                    <img src="img/alzhie/alzhie4.jpg" alt="ALZHİE" class="artist-slide">
+                                    <img src="img/alzhie/alzhie5.jpg" alt="ALZHİE" class="artist-slide">
+                                </div>
+                                <div class="artist-overlay">
+                                    <div class="social-links">
+                                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="social-icon soundcloud"><i class="fab fa-soundcloud"></i></a>
+                                        <a href="#" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
+                                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="artist-info">
+                                <h4 class="artist-name">ALZHİE</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="section-padding" data-scroll-section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center mb-5">
+                        <h6 class="text-primary" data-aos="fade-up">Tədbirlər</h6>
+                        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">UNDERCİTY Project</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <!-- Large Event Card 1 -->
+                    <div class="col-lg-8" data-aos="fade-up">
+                        <div class="event-card event-card-large">
+                            <div class="event-image">
+                                <img src="img/events/e1.jpg" alt="UNDERCITY Event" class="img-fluid">
+                                <span class="event-type">Konsert Görüntüsü</span>
+                                <div class="event-overlay">
+                                    <div class="event-content">
+                                        <span class="event-date">28 May 2025</span>
+                                        <h3 class="event-title">UNDERCITY Project</h3>
+                                        <p class="event-description">Kimsəsiz uşağlara xeyriyyə məqsədi ilə</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Small Event Cards Row 1 -->
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="event-card event-card-small mb-4">
+                            <div class="event-image">
+                                <img src="img/events/e2.jpg" alt="UNDERCITY Event" class="img-fluid">
+                                <span class="event-type">Konsert Görüntüsü</span>
+                                <div class="event-overlay">
+                                    <div class="event-content">
+                                        <span class="event-date">28 May 2025</span>
+                                        <h4 class="event-title">UNDERCITY Project</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card event-card-small">
+                            <div class="event-image">
+                                <img src="img/events/e3.jpg" alt="UNDERCITY Event" class="img-fluid">
+                                <span class="event-type">Konsert Görüntüsü</span>
+                                <div class="event-overlay">
+                                    <div class="event-content">
+                                        <span class="event-date">28 May 2025</span>
+                                        <h4 class="event-title">UNDERCITY Project</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Small Event Cards Row 2 -->
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="event-card event-card-small mb-4">
+                            <div class="event-image">
+                                <img src="img/events/e4.jpg" alt="UNDERCITY Event" class="img-fluid">
+                                <span class="event-type">Konsert Görüntüsü</span>
+                                <div class="event-overlay">
+                                    <div class="event-content">
+                                        <span class="event-date">28 May 2025</span>
+                                        <h4 class="event-title">UNDERCITY Project</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card event-card-small">
+                            <div class="event-image">
+                                <img src="img/events/e5.jpg" alt="UNDERCITY Event" class="img-fluid">
+                                <span class="event-type">Konsert Görüntüsü</span>
+                                <div class="event-overlay">
+                                    <div class="event-content">
+                                        <span class="event-date">28 May 2025</span>
+                                        <h4 class="event-title">UNDERCITY Project</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Large Event Card 2 -->
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+                        <div class="event-card event-card-large">
+                            <div class="event-image">
+                                <img src="img/events/e6.jpg" alt="UNDERCITY Event" class="img-fluid">
+                                <span class="event-type">Konsert Görüntüsü</span>
+                                <div class="event-overlay">
+                                    <div class="event-content"> 
+                                        <span class="event-date">28 May 2025</span>
+                                        <h3 class="event-title">UNDERCITY Project</h3>
+                                        <p class="event-description">Xeyriyyə məqsədi ilə keçirilən tədbir</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <p class="copyright">&copy; 2025 Destroy FM. Bütün hüquqlar qorunur.</p>
+                        <a href="#" class="privacy-link">Məxfilik Siyasəti</a>
+                    </div>
+                    <span class="developer">developed by <span class="dev-name">zleyid</span></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize AOS
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100
+            });
+
+            // Artist Slideshow
+            function initArtistSlideshow(container) {
+                const slides = container.querySelectorAll('.artist-slide');
+                let currentSlide = 0;
+                let prevSlide = slides.length - 1;
+
+                function showNextSlide() {
+                    // Remove classes from current and previous slides
+                    slides[currentSlide].classList.remove('active');
+                    slides[prevSlide].classList.remove('prev');
+                    
+                    // Update slide indices
+                    prevSlide = currentSlide;
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    
+                    // Add classes to new current and previous slides
+                    slides[currentSlide].classList.add('active');
+                    slides[prevSlide].classList.add('prev');
+                }
+
+                // Set initial state
+                slides[currentSlide].classList.add('active');
+                slides[prevSlide].classList.add('prev');
+
+                // Change slide every 3 seconds with a random offset
+                const randomDelay = Math.random() * 1500; // Random delay between 0-1.5s
+                setTimeout(() => {
+                    setInterval(showNextSlide, 3000);
+                }, randomDelay);
+            }
+
+            // Initialize all slideshows with a slight delay between each
+            document.querySelectorAll('.artist-slideshow').forEach((slideshow) => {
+                initArtistSlideshow(slideshow);
+            });
+
+            // Navbar scroll effect
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+
+            // Initialize Particles.js
+            particlesJS('particles-js', {
+                particles: {
+                    number: {
+                        value: 80,
+                        density: {
+                            enable: true,
+                            value_area: 800
+                        }
+                    },
+                    color: {
+                        value: '#ffffff'
+                    },
+                    shape: {
+                        type: 'circle'
+                    },
+                    opacity: {
+                        value: 0.5,
+                        random: true
+                    },
+                    size: {
+                        value: 3,
+                        random: true
+                    },
+                    line_linked: {
+                        enable: true,
+                        distance: 150,
+                        color: '#ffffff',
+                        opacity: 0.4,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 2,
+                        direction: 'none',
+                        random: true,
+                        straight: false,
+                        out_mode: 'out'
+                    }
+                },
+                interactivity: {
+                    detect_on: 'canvas',
+                    events: {
+                        onhover: {
+                            enable: true,
+                            mode: 'grab'
+                        },
+                        onclick: {
+                            enable: true,
+                            mode: 'push'
+                        },
+                        resize: true
+                    }
+                },
+                retina_detect: true
+            });
+
+            // Slideshow functionality
+            const slides = document.querySelectorAll('.slide');
+            let currentSlide = 0;
+            let isTransitioning = false;
+
+            function nextSlide() {
+                if (isTransitioning) return;
+                isTransitioning = true;
+
+                const currentSlideElement = slides[currentSlide];
+                currentSlideElement.classList.remove('active');
+                
+                currentSlide = (currentSlide + 1) % slides.length;
+                const nextSlideElement = slides[currentSlide];
+                nextSlideElement.classList.add('active');
+
+                setTimeout(() => {
+                    isTransitioning = false;
+                }, 600);
+            }
+
+            // Start slideshow
+            setInterval(nextSlide, 5000);
+        });
+    </script>
+</body>
+</html> 
