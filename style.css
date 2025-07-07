@@ -595,23 +595,36 @@ body::after {
 /* Hero Section */
 .hero {
     height: 100vh;
-    position: relative;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.hero .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 0 15px;
 }
 
 .hero h1 {
     font-size: 5rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
     z-index: 2;
+    white-space: nowrap;
+    text-align: center;
 }
 
 .destroy-text {
@@ -622,58 +635,97 @@ body::after {
     color: transparent;
     position: relative;
     z-index: 2;
+    text-align: center;
+}
+
+/* Social Icons */
+.social-icons {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+    transform: scale(1.2);
 }
 
 @media (max-width: 991px) {
+    .hero .container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(0.7);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .hero h1 {
-        font-size: 0.8rem;
+        font-size: 4rem;
+        width: 100%;
+        text-align: center;
+    }
+    .destroy-text {
+        display: inline-block;
+    }
+    .social-icons {
+        right: 15px;
     }
 }
 
 @media (max-width: 768px) {
-    .hero {
-        height: 100vh;
-        padding: 0 15px;
+    .hero .container {
+        transform: translate(-50%, -50%) scale(0.6);
     }
-
-    .hero h1 {
-        font-size: 1rem;
-        margin-bottom: 15px;
-        width: 100%;
-        word-break: break-word;
+    .social-icons {
+        right: 10px;
     }
-
-    .destroy-text {
-        display: inline-block;
-        width: auto;
-        max-width: 100%;
+    .social-icons a {
+        font-size: 20px;
     }
 }
 
 @media (max-width: 576px) {
-    .hero h1 {
-        font-size: 0.9rem;
-        line-height: 1.2;
-        margin-bottom: 10px;
+    .hero .container {
+        transform: translate(-50%, -50%) scale(0.45);
     }
-
-    .destroy-text {
-        white-space: normal;
+    .social-icons {
+        right: 8px;
     }
+    .social-icons a {
+        font-size: 18px;
+    }
+}
 
-    .hero .lead {
-        font-size: 0.7rem;
-        margin-top: 10px;
+@media (min-width: 400px) and (max-width: 420px) and (min-height: 900px) {
+    .hero .container {
+        transform: translate(-50%, -50%) scale(0.35);
     }
 }
 
 @media (max-width: 375px) {
-    .hero h1 {
-        font-size: 0.8rem;
+    .hero .container {
+        transform: translate(-50%, -50%) scale(0.3);
     }
-
-    .hero .lead {
-        font-size: 0.6rem;
+    .social-icons {
+        right: 5px;
+    }
+    .social-icons a {
+        font-size: 16px;
     }
 }
 
